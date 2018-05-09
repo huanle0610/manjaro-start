@@ -4,8 +4,7 @@
 $ /usr/bin/yaourt -S aur/google-chrome
 ```
 
-
-编辑eula_text.html的下载地址 不然下不来
+编辑 eula_text.html 的下载地址 不然下不来
 
 ```shell
 [root@amtf-pc ~]# ps aux | grep yaourt

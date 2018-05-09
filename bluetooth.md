@@ -1,4 +1,4 @@
-# 
+# bluetooth
 
 ```shell
 [root@amtf-s3 ~]# pacman -S bluez-utils

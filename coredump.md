@@ -1,4 +1,5 @@
 #格式
+
 ```shell
 cat /proc/sys/kernel/core_pattern
 ```
