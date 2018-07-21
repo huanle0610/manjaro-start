@@ -51,6 +51,25 @@ Build Date      : 2016年10月22日 星期六 03时05分07秒
 Validated By    : MD5 Sum  SHA-256 Sum  Signature
 ```
 
+```bash
+[amtf-s3 amtf]# pacman -Qo /bin/netstat    
+error: No package owns /bin/netstat
+[amtf-s3 amtf]# pacman -Qo /bin/ls   
+/usr/bin/ls is owned by coreutils 8.29-1
+[amtf-s3 amtf]# pacman -Qo /bin/cat  
+/usr/bin/cat is owned by coreutils 8.29-1
+[amtf-s3 amtf]# pacman -Qo cat     
+/usr/bin/cat is owned by coreutils 8.29-1
+[amtf-s3 amtf]# pacman -Qo wget
+/usr/bin/wget is owned by wget 1.19.5-1
+[amtf-s3 amtf]# pacman -Qo curl
+/usr/bin/curl is owned by curl 7.60.0-1
+[amtf-s3 amtf]# pacman -Qo netstat
+error: No package owns netstat
+```
+
+see [pkgfile](pkgfile.md)
+
 #依赖关系
 ##依赖
 ```shell
