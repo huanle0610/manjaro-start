@@ -29,6 +29,13 @@ community/9base
 community/epic4
 community/mc
 community/plan9port
+
+
+[amtf@amtf-s3 ucd]$ pkgfile -s Blocks.txt
+core/perl
+extra/unicode-character-database
+[amtf@amtf-s3 ucd]$ pkgfile -l extra/unicode-character-database | grep Blocks.txt
+extra/unicode-character-database        /usr/share/unicode/Blocks.txt
 ```
 
 #used for installed only
